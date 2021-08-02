@@ -1,0 +1,172 @@
+html {
+    font-family: arial, sans-serif;
+    color: #222;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+header {
+    height: 60px;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+}
+
+header>a:first-of-type {
+    margin-left: 15px;
+}
+
+header>a {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+    flex-grow: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.head-left {
+    display: inline-block;
+    flex-grow: 1;
+}
+
+.inner-head-left {
+    min-width: auto;
+    z-index: 986;
+    height: 48px;
+    color: black;
+    position: relative;
+}
+
+.flex-left {
+    padding-left: 0;
+    float: right;
+    height: 48px;
+    line-height: normal;
+    padding: 0 4px;
+    flex: 0 0 auto;
+    justify-content: flex-end;
+    vertical-align: middle;
+    white-space: nowrap;
+    align-items: center;
+    display: flex;
+}
+
+.link-left {
+    padding-right: 15px;
+    white-space: nowrap;
+}
+
+.link {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.link>a {
+    color: rgba(0,0,0,0.87)
+}
+
+.icon-left {
+    float: right;
+    position: relative;
+    display: block;
+    line-height: normal;
+    white-space: nowrap;
+    color: black;
+}
+
+.menu-icon {
+    display: inline;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.menu-inner {
+    position: relative;
+    display: block;
+    padding-left: 4px;
+    padding: 4px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+a.menu {
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    opacity: 1;
+    background-position: -64px -29px;
+    padding: 8px;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    border-radius: 2px;
+    height: 40px;
+    width: 40px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.menu {
+    color: #5f6368;
+    opacity: 1;
+    fill: currentColor;
+}
+
+.user-icon {
+    flex: 0 1 auto;
+    padding: 4px;
+    display: inline-block;
+    vertical-align: middle;
+    color: black;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.user-inner {
+    flex: 0 1 auto;
+    position: relative;
+    display: block;
+    padding: 4px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.icon {
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 4px;
+    flex: 0 1 auto;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    border-radius: 2px;
+    height: 40px;
+    width: 40px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.icon>img {
+    background-size: 32px 32px;
+    border: 0;
+    border-radius: 50%;
+    display: block;
+    margin: 0px;
+    position: relative;
+    height: 32px;
+    width: 32px;
+    z-index: 0;
+}
